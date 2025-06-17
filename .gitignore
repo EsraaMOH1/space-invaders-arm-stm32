@@ -1,0 +1,67 @@
+# STM32 and Embedded C Projects
+
+# Ignore build and output folders
+build/
+Build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.map
+*.hex
+*.bin
+*.lst
+*.out
+*.axf
+*.sct
+*.dep
+*.i
+
+# IDE-specific ignores
+
+# STM32CubeIDE (Eclipse-based)
+.cproject
+.project
+.settings/
+.metadata/
+*.launch
+*.log
+*.pydevproject
+
+# Keil uVision
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.bak
+*.depend
+*.hex
+*.srec
+*.plg
+*.lnp
+*.lst
+*.tra
+
+# Atollic TrueSTUDIO
+.settings/
+*.launch
+*.bin
+*.elf
+*.hex
+*.o
+*.d
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# VSCode
+.vscode/
